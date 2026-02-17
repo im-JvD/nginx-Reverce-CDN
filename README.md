@@ -133,5 +133,6 @@ ___
 ___
  ‌
 <p align="center">
-<b> زنده باد ایران | 28-11-1404</b>
+<b>
+ <a href="https://t.me/MmDJvD_Karimi">im-JvD</a> - [ 28-11-1404 ]</b>
 </p‌>
