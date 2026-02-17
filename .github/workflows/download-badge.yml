@@ -24,9 +24,7 @@ jobs:
 
       - name: Update README badge
         run: |
-          sed -i "s|Downloads-LOADING-[^-]*|Downloads-$COUNT-brightgreen|g" README.md
-          
-          sed -i "s|Downloads-[0-9]*-[^-]*|Downloads-$COUNT-brightgreen|g" README.md
+          sed -i "s/__COUNT__/$COUNT/g" README.md
 
       - name: Commit changes
         run: |
