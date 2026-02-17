@@ -2,7 +2,7 @@ name: Update Download Badge
 
 on:
   schedule:
-    - cron: "0 * * * *"   # هر 1 ساعت
+    - cron: "*/15 * * * *"   
   workflow_dispatch:
 
 jobs:
@@ -18,12 +18,15 @@ jobs:
           COUNT=$(curl -s https://api.github.com/repos/im-JvD/nginx-Reverce-CDN/releases \
             | jq '[.[] | .assets[] | select(.name=="installer.sh") | .download_count] | add')
 
+          COUNT=${COUNT:-0}
+
           echo "COUNT=$COUNT" >> $GITHUB_ENV
 
       - name: Update README badge
         run: |
-          sed -i "s/Downloads-[0-9]*-/Downloads-$COUNT-/" README.md
-          sed -i "s/Downloads-LOADING-/Downloads-$COUNT-/" README.md
+          sed -i "s|Downloads-LOADING-[^-]*|Downloads-$COUNT-brightgreen|g" README.md
+          
+          sed -i "s|Downloads-[0-9]*-[^-]*|Downloads-$COUNT-brightgreen|g" README.md
 
       - name: Commit changes
         run: |
