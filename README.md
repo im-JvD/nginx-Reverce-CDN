@@ -8,8 +8,14 @@
 - **تنظیم ساعت سرور** بصورت خودکار
 - **فعال‌سازی خودکار** BBR
 - حذف کامل هسته، پاکسازی و **بازگردانی به حالت دیفالت** سرور
-<p align="center"><br>
-  <img src="https://img.shields.io/badge/Downloads-5-brightgreen
+
+<p align="center">
+  <br>
+  <a href="https://github.com/im-JvD/nginx-Reverce-CDN">
+    <img src="https://img.shields.io/badge/Downloads-LOADING-brightgreen">
+    <img src="https://img.shields.io/badge/License-MIT-blue">
+    <img src="https://img.shields.io/badge/Nginx-Automated-success">
+  </a>
 </p>
 ‌
 <p align="center">
