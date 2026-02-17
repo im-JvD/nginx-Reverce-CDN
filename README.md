@@ -30,7 +30,7 @@
 </p‌>
 
 ```
-sudo bash -c "$(curl -sL https://raw.githubusercontent.com/im-JvD/nginx-Reverce-CDN/refs/heads/main/n-cdn.sh)"
+sudo bash -c "$(curl -sL https://raw.githubusercontent.com/im-JvD/nginx-Reverce-CDN/refs/heads/main/menu.sh)"
 ```
 پس از نمایش منوی اسکریپت **مراحل زیر رو به ترتیب** اجرا کنید
 
