@@ -22,10 +22,18 @@ fi
 INSTALL_PATH="/usr/local/bin/n-cdn"
 GITHUB_URL="https://raw.githubusercontent.com/im-JvD/nginx-Reverce-CDN/refs/heads/main/n-cdn.sh"
 
-SCRIPT_PATH=$(readlink -f "$0")
-if [ "$SCRIPT_PATH" != "/usr/local/bin/n-cdn" ]; then
-    cp -f "$SCRIPT_PATH" /usr/local/bin/n-cdn
-    chmod +x /usr/local/bin/n-cdn
+if [ ! -f "$INSTALL_PATH" ]; then
+    echo -e "${YELLOW}Downloading and Installing n-cdn...${NC}"
+    if command -v curl >/dev/null 2>&1; then
+        curl -sL "$GITHUB_URL" -o "$INSTALL_PATH"
+        chmod +x "$INSTALL_PATH"
+        echo -e "${GREEN}Installed! You can now use 'n-cdn' command.${NC}"
+    else
+        echo -e "${RED}Error: curl is not installed. Installing curl...${NC}"
+        apt update && apt install -y curl
+        curl -sL "$GITHUB_URL" -o "$INSTALL_PATH"
+        chmod +x "$INSTALL_PATH"
+    fi
 fi
 
 show_exit_msg() {
