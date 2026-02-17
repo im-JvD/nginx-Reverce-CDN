@@ -1,0 +1,39 @@
+name: Update Download Badge
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # هر 1 ساعت
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download repository
+        uses: actions/checkout@v4
+
+      - name: Get download count from GitHub API
+        run: |
+          COUNT=$(curl -s https://api.github.com/repos/im-JvD/nginx-Reverce-CDN/releases \
+            | jq '[.[] | .assets[] | select(.name=="installer.sh") | .download_count] | add')
+
+          echo "COUNT=$COUNT" >> $GITHUB_ENV
+
+      - name: Update README badge
+        run: |
+          sed -i "s/Downloads-[0-9]*-/Downloads-$COUNT-/" README.md
+          sed -i "s/Downloads-LOADING-/Downloads-$COUNT-/" README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          if git diff --quiet; then
+            echo "No changes"
+          else
+            git add README.md
+            git commit -m "Update download badge"
+            git push
+          fi
