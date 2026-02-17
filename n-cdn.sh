@@ -19,6 +19,9 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 
+INSTALL_PATH="/usr/local/bin/n-cdn"
+GITHUB_URL="https://raw.githubusercontent.com/im-JvD/nginx-Reverce-CDN/refs/heads/main/n-cdn.sh"
+
 SCRIPT_PATH=$(readlink -f "$0")
 if [ "$SCRIPT_PATH" != "/usr/local/bin/n-cdn" ]; then
     cp -f "$SCRIPT_PATH" /usr/local/bin/n-cdn
