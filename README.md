@@ -30,7 +30,7 @@
 </p‌>
 
 ```
-sudo bash -c "$(curl -sL https://raw.githubusercontent.com/im-JvD/nginx-Reverce-CDN/refs/heads/main/menu.sh)"
+curl -fsSL https://github.com/im-JvD/nginx-Reverce-CDN/releases/download/v1.0.1/installer.sh | bash
 ```
 پس از نمایش منوی اسکریپت **مراحل زیر رو به ترتیب** اجرا کنید
 
