@@ -12,7 +12,7 @@
 <p align="center">
   <br>
   <a href="https://github.com/im-JvD/nginx-Reverce-CDN">
-    <img src="https://img.shields.io/badge/Downloads-LOADING-brightgreen">
+    <img src="https://img.shields.io/badge/Downloads-6-brightgreen
     <img src="https://img.shields.io/badge/License-MIT-blue">
     <img src="https://img.shields.io/badge/Nginx-Automated-success">
   </a>
