@@ -140,7 +140,6 @@ ___
 
 ___
  ‌
- 
 <p align="center">
 <b>
  <a href="https://t.me/MmDJvD_Karimi">im-JvD</a> - [ 1404,11,28 ]</b>
