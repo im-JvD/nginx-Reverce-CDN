@@ -16,12 +16,12 @@
 
 
 <p align="center">
-  <img src="https://img.shields.io/github/downloads/im-JvD/nginx-Reverce-CDN/total?style=flat-square&color=blue&label=Installs" alt="Total Installs" />
+  <img src="https://img.shields.io/github/downloads/im-JvD/nginx-Reverce-CDN/total?style=flat-square&color=green&label=Installs" alt="Total Installs" />
  
   <img src="https://img.shields.io/badge/Platform-Ubuntu%20%7C%20Debian-orange?style=flat-square" alt="Platform" />
   
   <a href="https://github.com/im-JvD/nginx-Reverce-CDN/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/im-JvD/nginx-Reverce-CDN?style=flat-square&color=success" alt="License" />
+    <img src="https://img.shields.io/github/license/im-JvD/nginx-Reverce-CDN?style=flat-square&color=red" alt="License" />
   </a>
   
   <a href="https://t.me/MmDJvD_Karimi" target="_blank">
@@ -46,7 +46,7 @@
 </p‌>
 
 ```
-curl -fsSL https://github.com/im-JvD/nginx-Reverce-CDN/releases/download/Stable-Version/installer.sh | bash
+curl -fsSL https://github.com/im-JvD/nginx-Reverce-CDN/releases/download/v1.0.0/installer.sh | bash
 ```
 پس از نمایش منوی اسکریپت **مراحل زیر رو به ترتیب** اجرا کنید
 
@@ -139,7 +139,6 @@ ___
   - برای ایجاد رکورد جدید در کلودفلر اگه از رکورد **`CNAME`** استفاده کنید بهتره .
 
 ___
- ‌
 <p align="center">
 <b>
  <a href="https://t.me/MmDJvD_Karimi">im-JvD</a> - [ 1404,11,28 ]</b>
