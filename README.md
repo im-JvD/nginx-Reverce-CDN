@@ -8,6 +8,8 @@
 - **تنظیم ساعت سرور** بصورت خودکار
 - **فعال‌سازی خودکار** BBR
 - حذف کامل هسته، پاکسازی و **بازگردانی به حالت دیفالت** سرور
+
+![Total Installs](https://img.shields.io/endpoint?style=flat-square&color=blue&url=https%3A%2F%2Fapi.counterapi.dev%2Fv1%2Fim-JvD%2Fnginx-Reverce-CDN%2Fendpoint%3Flabel%3DInstalls)
 ‌
 <p align="center">
  <a href="#-مراحل-نصب-و-اجرای-اسکریپت">دستور نصب و اجرا</a> - <a href="#تنظیمات-کلودفلر">تنظیمات CloudFlare</a><br> <a href="#نصب-و-تنظیمات-پنل-x-ui">نصب و تنظیمات پنل X-UI</a> - <a href="#تنظیمات-سمت-سرور">تنظیمات سمت سرور</a><br> <a href="#تنظیمات-دستی-کانفیگ-vless-در-اپلیکیشن-کلاینت">تنظیم دستی TLS</a> - <a href="#نکات-قابل-توجه">نکات قابل توجه</a><br> <a href="https://t.me/efnhi/298">منبع آموزش و تولید اسکریپت</a><br>
@@ -30,7 +32,7 @@
 </p‌>
 
 ```
-curl -fsSL https://github.com/im-JvD/nginx-Reverce-CDN/releases/download/v1.0.0/installer.sh | bash
+curl -fsSL https://github.com/im-JvD/nginx-Reverce-CDN/releases/download/Stable-Version/installer.sh | bash
 ```
 پس از نمایش منوی اسکریپت **مراحل زیر رو به ترتیب** اجرا کنید
 
