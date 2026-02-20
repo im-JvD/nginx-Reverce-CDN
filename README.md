@@ -8,10 +8,26 @@
 - **تنظیم ساعت سرور** بصورت خودکار
 - **فعال‌سازی خودکار** BBR
 - حذف کامل هسته، پاکسازی و **بازگردانی به حالت دیفالت** سرور
+
 ‌
 <p align="center">
- <a href="#-مراحل-نصب-و-اجرای-اسکریپت">دستور نصب و اجرا</a> - <a href="#تنظیمات-کلودفلر">تنظیمات CloudFlare</a><br> <a href="#نصب-و-تنظیمات-پنل-x-ui">نصب و تنظیمات پنل X-UI</a> - <a href="#تنظیمات-سمت-سرور">تنظیمات سمت سرور</a><br> <a href="#تنظیمات-دستی-کانفیگ-vless-در-اپلیکیشن-کلاینت">تنظیم دستی TLS</a> - <a href="#نکات-قابل-توجه">نکات قابل توجه</a><br> <a href="https://t.me/efnhi/298">منبع آموزش و تولید اسکریپت</a><br>
-</p‌>‌
+ <a href="#-مراحل-نصب-و-اجرای-اسکریپت">دستور نصب و اجرا</a> - <a href="#تنظیمات-کلودفلر">تنظیمات CloudFlare</a><br> <a href="#نصب-و-تنظیمات-پنل-x-ui">نصب و تنظیمات پنل X-UI</a> - <a href="#تنظیمات-سمت-سرور">تنظیمات سمت سرور</a><br> <a href="#تنظیمات-دستی-کانفیگ-vless-در-اپلیکیشن-کلاینت">تنظیم دستی TLS</a> - <a href="#نکات-قابل-توجه">نکات قابل توجه</a><br> <a href="https://t.me/efnhi/298">منبع آموزش و تولید اسکریپت</a><br><br>
+</p‌>
+
+
+<p align="center">
+  <img src="https://img.shields.io/github/downloads/im-JvD/nginx-Reverce-CDN/total?style=flat-square&color=blue&label=Installs" alt="Total Installs" />
+ 
+  <img src="https://img.shields.io/badge/Platform-Ubuntu%20%7C%20Debian-orange?style=flat-square" alt="Platform" />
+  
+  <a href="https://github.com/im-JvD/nginx-Reverce-CDN/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/im-JvD/nginx-Reverce-CDN?style=flat-square&color=success" alt="License" />
+  </a>
+  
+  <a href="https://t.me/MmDJvD_Karimi" target="_blank">
+    <img src="https://img.shields.io/badge/Telegram-Channel-2CA5E0?style=flat-square&logo=telegram&logoColor=white" alt="Telegram Support" />
+  </a>
+</p>
 ‌
 <p align="center">
   <img src="https://raw.githubusercontent.com/im-JvD/nginx-Reverce-CDN/refs/heads/main/Nginx%20Cloudflare%20CDN.jpg" width="1080px" />
@@ -124,8 +140,6 @@ ___
 
 ___
  ‌
-
-![Total Installs](https://img.shields.io/endpoint?style=flat-square&color=blue&url=https%3A%2F%2Fapi.counterapi.dev%2Fv1%2Fim-JvD%2Fnginx-Reverce-CDN%2Fendpoint%3Flabel%3DInstalls)
  
 <p align="center">
 <b>
